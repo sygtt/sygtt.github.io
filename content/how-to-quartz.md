@@ -81,8 +81,8 @@ const config: QuartzConfig = {
           gray: "#E0E0E0",
           darkgray: "#2D2A2B",
           dark: "#2A2530",
-          secondary: "#B31360",
-          tertiary: "#F86EAE",
+          secondary: "#D91A6C",
+          tertiary: "#F05599",
           highlight: "#FEEAF2",
           textHighlight: "#FDDDEE"
         },
@@ -92,8 +92,8 @@ const config: QuartzConfig = {
           gray: "#282828",
           darkgray: "#EAEAEA",
           dark: "#FFDBED",
-          secondary: "#F86EAE",
-          tertiary: "#FF99C8",
+          secondary: "#FF99C8",
+          tertiary: "#FFB3D9",
           highlight: "#3A2C33",
           textHighlight: "#522A40"
         },
@@ -103,7 +103,33 @@ const config: QuartzConfig = {
 
 ```
 
-とくにこだわったところは色。何回も調整した。
-マゼンタとサクラピンクベースで設定してみた。
-この配色が一番好き。
-読みやすいようになっていたらいいなぁ。
+とくにこだわったところは色。生成AIフル活用、何回も調整した。\\
+これやっても実感したけど、Manusの調整力はすばらしい。\\
+あいつにWebページ作らせたときの絶望感やばかったもん。もう人間いらんやんって思ってしまった。\\
+マゼンタとサクラピンクベースで設定してみた。\\
+この配色が一番好き。\\
+読みやすいようになっていたらいいなぁ。\\
+
+## 記事の投稿
+
+投稿したい記事は、`content` ディレクトリの中に入れておけばOK。
+Markdownファイルの冒頭に
+
+```yml
+---
+title: Quartz 4 を使って自分だけのデジタルガーデンをつくろう
+tags: 
+    - Quartz
+---
+
+```
+
+って書いておけば、タイトルやタグも反映してくれる。
+
+編集が終わったら、
+
+```bash
+npx quartz sync
+```
+
+を実行すると自動でpushとかいろいろしてくれて、Github Actionsで自動でビルド・デプロイしてくれる。便利。
