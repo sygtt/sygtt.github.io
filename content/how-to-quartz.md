@@ -52,3 +52,58 @@ Astro + TailwindCSS は、自由度高そうだが、ハードルも高すぎて
 
 ### quartz.config.ts
 
+まずは、`quartz.config.ts` をいじっていく。
+
+[公式ドキュメント](https://quartz.jzhao.xyz/configuration) に各パラメータの意味が書いてあるので、これを見ながら書き換えていく。
+
+変更したところを中心に置いておく。
+
+```ts
+const config: QuartzConfig = {
+  configuration: {
+    pageTitle: "じゃこの隠れ家",
+    pageTitleSuffix: " - じゃこの隠れ家",
+    locale: "ja-JP",
+    baseUrl: "sygtt.github.io",
+    defaultDateType: "modified",
+    theme: {
+      fontOrigin: "googleFonts",
+      cdnCaching: true,
+      typography: {
+        header: "IBM Plex Sans JP",
+        body: "IBM Plex Sans JP",
+        code: "IBM Plex Mono",
+      },
+      colors: {
+        lightMode: {
+          light: "#FEFEFE",
+          lightgray: "#F1F1F1",
+          gray: "#E0E0E0",
+          darkgray: "#2D2A2B",
+          dark: "#2A2530",
+          secondary: "#B31360",
+          tertiary: "#F86EAE",
+          highlight: "#FEEAF2",
+          textHighlight: "#FDDDEE"
+        },
+        darkMode: {
+          light: "#1A1A1A",
+          lightgray: "#3C3C3C",
+          gray: "#282828",
+          darkgray: "#EAEAEA",
+          dark: "#FFDBED",
+          secondary: "#F86EAE",
+          tertiary: "#FF99C8",
+          highlight: "#3A2C33",
+          textHighlight: "#522A40"
+        },
+      },
+    },
+  },
+
+```
+
+とくにこだわったところは色。何回も調整した。
+マゼンタとサクラピンクベースで設定してみた。
+この配色が一番好き。
+読みやすいようになっていたらいいなぁ。

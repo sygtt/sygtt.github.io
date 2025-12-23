@@ -31,26 +31,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#FFFBFC",        // page background
-          lightgray: "#F0E4E8",    // borders
-          gray: "#E6E1EA",         // graph links, heavier borders
-          darkgray: "#2D2A2B",     // body text
-          dark: "#2A2530",         // header text and icons
-          secondary: "#C01872",    // link colour, current graph node
-          tertiary: "#FF7CBE",     // hover states, visited graph nodes
-          highlight: "#FFE4F0",    // 内部リンク背景・軽い強調
-          textHighlight: "#FFD2E6" // ==markdown強調==（一段強い）
+          light: "#FEFEFE",
+          lightgray: "#F1F1F1",
+          gray: "#E0E0E0",
+          darkgray: "#2D2A2B",
+          dark: "#2A2530",
+          secondary: "#B31360",
+          tertiary: "#F86EAE",
+          highlight: "#FEEAF2",
+          textHighlight: "#FDDDEE"
         },
         darkMode: {
-          light: "#18151A",        // page background
-          lightgray: "#3D3438",    // borders
-          gray: "#2E2833",         // graph links, heavier borders
-          darkgray: "#F5EEF0",     // body text
-          dark: "#FFDBED",         // header text and icons
-          secondary: "#FF7CBE",    // link colour, current graph node
-          tertiary: "#FFB3D9",     // hover states, visited graph nodes
-          highlight: "#3D2438",    // 内部リンク・軽い強調
-          textHighlight: "#5A2F49" // ==markdown強調==（より強い）
+          light: "#1A1A1A",
+          lightgray: "#3C3C3C",
+          gray: "#282828",
+          darkgray: "#EAEAEA",
+          dark: "#FFDBED",
+          secondary: "#F86EAE",
+          tertiary: "#FF99C8",
+          highlight: "#3A2C33",
+          textHighlight: "#522A40"
         },
       },
     },
