@@ -25,32 +25,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Mochiy Pop One",
-        body: "BIZ UDPGothic",
+        header: "IBM Plex Sans JP",
+        body: "IBM Plex Sans JP",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#FFFBFC",        // page background
+          lightgray: "#F0E4E8",    // borders
+          gray: "#E6E1EA",         // graph links, heavier borders
+          darkgray: "#2D2A2B",     // body text
+          dark: "#2A2530",         // header text and icons
+          secondary: "#C01872",    // link colour, current graph node
+          tertiary: "#FF7CBE",     // hover states, visited graph nodes
+          highlight: "#FFE4F0",    // 内部リンク背景・軽い強調
+          textHighlight: "#FFD2E6" // ==markdown強調==（一段強い）
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#18151A",        // page background
+          lightgray: "#3D3438",    // borders
+          gray: "#2E2833",         // graph links, heavier borders
+          darkgray: "#F5EEF0",     // body text
+          dark: "#FFDBED",         // header text and icons
+          secondary: "#FF7CBE",    // link colour, current graph node
+          tertiary: "#FFB3D9",     // hover states, visited graph nodes
+          highlight: "#3D2438",    // 内部リンク・軽い強調
+          textHighlight: "#5A2F49" // ==markdown強調==（より強い）
         },
       },
     },
