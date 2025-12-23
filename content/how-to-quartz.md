@@ -56,8 +56,6 @@ Astro + TailwindCSS は、自由度高そうだが、ハードルも高すぎて
 
 ということで、ここからは私がカスタマイズした部分についてメモを残しておく。
 
-<br>
-
 ### quartz.config.ts
 
 まずは、`quartz.config.ts` をいじっていく。
@@ -108,6 +106,7 @@ const config: QuartzConfig = {
       },
     },
   },
+}
 
 ```
 
