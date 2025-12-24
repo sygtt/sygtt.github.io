@@ -154,12 +154,12 @@ zshのプラグインでスペルミスに気付かず、目を細めて画面�
 
 ## 参考にしたサイト
 
-[生のターミナルから卒業しませんか？【oh-my-zsh】 &#35;初心者 - Qiita](https://qiita.com/flowernotfound/items/480f1aea319762aaf842)
+[生のターミナルから卒業しませんか？【oh-my-zsh】 <label>#</label>初心者 - Qiita](https://qiita.com/flowernotfound/items/480f1aea319762aaf842)
 
-[【zsh】ターミナルをかわいくしたい！【powerlevel10k】 &#35;WSL2 - Qiita](https://qiita.com/831kirimi/items/582e0abc26dbd7776d9b)
+[【zsh】ターミナルをかわいくしたい！【powerlevel10k】 <label>#</label>WSL2 - Qiita](https://qiita.com/831kirimi/items/582e0abc26dbd7776d9b)
 
 [cdコマンドを強化する zoxide でターミナル操作を快適にする](https://zenn.dev/h_ymt/articles/e4a07ca71fd1cb)
 
 [コマンド紹介シリーズ：eza](https://zenn.dev/akasan/articles/5870bda267256b)
 
-[【時短】zshでエイリアスを設定する方法 &#35;Zsh - Qiita](https://qiita.com/terufumi1122/items/1bbb1cf96e376e30e9fc)
+[【時短】zshでエイリアスを設定する方法 <label>#</label>Zsh - Qiita](https://qiita.com/terufumi1122/items/1bbb1cf96e376e30e9fc)
