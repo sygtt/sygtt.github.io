@@ -10,9 +10,13 @@ tags:
 
 ということで、別のPCでこのQuartzを編集する方法をまとめておく。
 
+<br>
+
 ## 環境
 
 Dynabook、Windows11のWSL2 (Ubuntu 24.04)
+
+<br>
 
 ## 方法
 
@@ -26,11 +30,15 @@ Quartzのリポジトリをcloneする。
 git clone https://github.com/sygtt/sygtt.github.io.git
 ```
 
+<br>
+
 ### node.jsのインストール
 
 node.jsをインストールする。
 
 [公式サイト](https://nodejs.org/ja/download)のコマンドを順にコピペしていくだけ。
+
+<br>
 
 ### 依存パッケージのインストール
 
